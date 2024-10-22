@@ -1,12 +1,18 @@
-Intern Program Documentation
-=============================
+PMC Intern Onboarding Documentation
+====================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Teams:
+   :caption: Contents:
 
-   fux
-   bad
-   did
-   fsd
+   welcome
+   getting_started
+   infrastructure
+   teams/index
+   development_processes
+   security
+   request_forms
+   troubleshooting
+   learning_resources
+   faq
 
