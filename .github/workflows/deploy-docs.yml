@@ -1,18 +1,24 @@
-name: Deploy Sphinx Documentation.
+name: Deploy Sphinx Documentation
 
 on:
   push:
     branches:
-      - main  
+      - main
+      - gh-pages  # Added this to handle pushes to gh-pages
   pull_request:
     branches:
       - main
+
+permissions:
+  contents: write  # Add explicit permissions
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Fetch all history for all branches
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -33,10 +39,11 @@ jobs:
         sphinx-build -b html source/ build/html
 
     - name: Deploy to GitHub Pages
-      if: github.event_name == 'push'
+      if: success()
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build/html
         force_orphan: true
         publish_branch: gh-pages
+        enable_jekyll: false
