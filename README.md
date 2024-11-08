@@ -1,6 +1,6 @@
 # Property Management Console Documentation
 
-Welcome to the **Property Management Console** documentation. This repository contains essential resources and guidelines for learning and contributing during your internship, focusing on the development processes, infrastructure setup, and useful learning resources. Below are the key areas covered:
+Welcome to the **Property Management Console** documentation. This repository contains essential resources and guidelines for learning and contributing during your internship, focusing on development processes, infrastructure setup, and useful learning resources. Below are the key areas covered:
 
 ## Key Areas of Documentation
 
@@ -8,7 +8,11 @@ Welcome to the **Property Management Console** documentation. This repository co
    - This section outlines the steps and practices followed during development. It includes coding standards, version control processes, and collaboration methods used within the project.
 
 ### 2. **Getting Started**
-   - A comprehensive guide for new contributors and team members. It includes instructions on setting up the development environment, understanding the project structure, and contributing to the documentation.
+   - A comprehensive guide for new contributors and team members. This section includes resources to help you get up and running with the project:
+     - **accessing_resources.rst** - Guide to accessing various resources needed for the project.
+     - **intern_information_form.rst** - A form used to gather information from new interns for onboarding purposes.
+     - **onboarding_checklist.rst** - A checklist to ensure all steps are completed during the onboarding process.
+     - **workstation_setup.rst** - Instructions on setting up your workstation and configuring necessary tools for development.
 
 ### 3. **Infrastructure**
    - Detailed information on the infrastructure of the Property Management Console, including server setup, deployment configurations, and system architecture. This section helps you understand the technical backend of the project.
