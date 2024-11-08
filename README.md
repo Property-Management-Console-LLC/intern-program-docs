@@ -1,6 +1,6 @@
 # Property Management Console Documentation
 
-Welcome to the **Property Management Console** documentation. This repository contains essential resources and guidelines for learning and contributing during your internship, focusing on development processes, infrastructure setup, and useful learning resources. Below are the key areas covered:
+Welcome to the **Property Management Console LLC**intern-program documentation. This repository contains essential resources and guidelines for learning and contributing during your internship, focusing on development processes, infrastructure setup, and useful learning resources. Below are the key areas covered:
 
 ## Key Areas of Documentation
 
