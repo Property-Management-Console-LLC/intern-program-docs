@@ -10,9 +10,8 @@ PMC Intern Onboarding Documentation
    infrastructure
    teams/index
    development_processes
-   security
-   request_forms
    troubleshooting
    learning_resources
    faq
+   update_project
 
